@@ -13,7 +13,7 @@ model = genai.GenerativeModel("gemini-1.5-flash")
 
 # --- APP UI ---
 st.set_page_config(page_title="AI Travel Chatbot", page_icon="🌍", layout="wide")
-st.title("🌍 AI Travel Planner (Free Gemini API)")
+st.title("🌍 AI Travel Planner (AIzaSyDPPXRc2mK3OBtrKixpoMNXqJhrpJI2wWQ)")
 
 st.write("Enter your travel details and get a full itinerary ✈️🏨🗺️")
 
