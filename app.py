@@ -8,7 +8,7 @@ import google.generativeai as genai
 
 # --- CONFIG ---
 # Correct way to load the API key from Streamlit secrets
-genai.configure(api_key=st.secrets["AIzaSyCRW0d9PP08j9OepQm8oRqtT_26PRq3CKY"])
+genai.configure(api_key=st.secrets["general"]["AIzaSyCRW0d9PP08j9OepQm8oRqtT_26PRq3CKY"])
 
 # Recommended free model from Google
 model = genai.GenerativeModel("gemini-1.5-flash-002")
